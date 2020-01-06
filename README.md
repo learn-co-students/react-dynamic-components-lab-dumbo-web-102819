@@ -51,9 +51,9 @@ created and exported)
 
 #### `Comment` Component
 
-- Create a `Component` component in the file, `Comment.js` within `src/` and don't forget to:
-  - `import React, { Component } from 'react'` at the top of our file
-  - Use the `class X extends Component {}` syntax
+X- Create a `Component` component in the file, `Comment.js` within `src/` and don't forget to:
+X- `import React, { Component } from 'react'` at the top of our file
+X- Use the `class X extends Component {}` syntax
   - export the class so it can be used in other files
   - import the class in `BlogPost`
 - It should expect a single prop (the text of a comment), which can be used in the
@@ -61,7 +61,7 @@ created and exported)
   `src/BlogPost.js`
 - It should have a single `<div>` in its `render()` method
 - The `<div>` should have a `className="comment"` attribute
-- **Note:** The `BlogPost` component needs _minor_ alteration to properly pass
+X- **Note:** The `BlogPost` component needs _minor_ alteration to properly pass
   the contents of its `commentsArray` to each of the `Comment` components that
   it is rendering
 - Don't forget - we can unpack variable values directly with JSX by wrapping them
